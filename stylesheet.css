@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'popping' sans-serif;
+    background-color:  #F7F7F7;
+    color: #424242;
+}
+
+header{
+    background-color: white;
+    box-shadow: 0px 3px 30px #7B7B7B29;;
+}
+.title{
+    width: 80%;
+    padding: 18px 0;
+    margin: auto;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.title_2{
+    color:  #00A5EC;
+}
+.add_new_task > a {
+    font-size: 22px;
+    height: 40px;
+    margin: auto;
+    vertical-align: middle;
+    margin-right: 10px;
+    border-radius: 100%;
+    background-color: #00A5EC;
+    font-size: 38px;
+    font-weight: bolder;
+    color: #F7F7F7;
+
+}
+.task_item{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card{
+    margin: 15px 0;
+    border: 1px solid  #EDEDED;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    width: 352px;
+    height: 360px;
+}
+
+.card_title{
+    height: 24px;
+    font: normal normal medium 20px/24px Inter;
+    color: #00A5EC;
+}
+.card_title h3{
+    margin: 30px;
+}
+.card_items{
+    border-top: 1px solid #EDEDED;
+    padding: 20px;
+}
+.item{
+    padding: 10px;
+    margin: auto;
+    vertical-align: middle;    
+}
+
+#item{
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+    background-color: #424242;
+}
+.item_1{
+    text-decoration: line-through;
+}
