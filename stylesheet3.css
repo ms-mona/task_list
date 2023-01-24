@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F7F7F7;
+}
+.task_list{
+    background-color: #FFFFFF;
+    font-weight: bold;
+    font-size: 40px;
+    color: #424242;
+    
+    
+}
+.task_list p{
+    padding: 10px 20px;
+}
+span{
+    color: #00A5EC;
+}
+
+.title {
+    top: 144px;
+    left: 478px;
+    text-align: left;
+    font: normal normal normal 20px/24px Inter;
+    color: #424242;  
+}
+.title .back{
+    width: 46px;
+    height: 24px;
+}
+.cantainar{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+
+}
+.items{ 
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    border: 2px solid #EDEDED;
+    background-color: white;
+
+}
+h3{
+    border-bottom: 2px solid #EDEDED;
+    text-align: center;
+    padding: 20px;
+    color: #00A5EC;
+    font: 24px;
+}
+.list{
+    font-size: 20px;
+    padding: 10px 10px;
+}
+.visit{
+    color: #C2C2C2;
+    text-decoration: line-through;
+}
+.sopp{
+    color: #424242;
+}

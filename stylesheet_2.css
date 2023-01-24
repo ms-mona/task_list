@@ -3,18 +3,57 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-color: rgba(185, 180, 180, 0.89);
+}
 .card{
-    border: 1px solid;
-    height: 300px;
-    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 200px;
+    width: 380px;
+    margin: auto;
+    background-color: white;
+
 }
-span h3{
-    
-    border-bottom: 1px solid;
-    padding: 10px 5px;
-    
+.head{
+    font-family: inter;
+    font-weight: medium;
+    font-size: 22px;
+    color: #404040;   
+    display: flex; 
+    justify-content: space-between;
+    border-bottom: 2px solid #7B7B7B29;
+    padding: 10px;
 }
-.item{
-    width: 50px;
-    margin: 5px;
+
+.head a{
+    text-decoration: none;
+}
+
+.item input{
+    width: 97%;
+    margin: 13px 8px;
+    padding: 8px 5px;
+    background-color: #F7F7F7;
+    color: #858585;
+    border: 1px solid #F7F7F7;
+}
+
+.btn{
+    text-align: right;
+    margin: 10px;
+}
+.btn button{
+    padding: 6px 16px;
+    background-color: #00A5EC;
+    color: white;
+    border: none;
+    border-radius: 3px;
+
+}
+.btn button a{
+    text-decoration: none;
 }
